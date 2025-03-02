@@ -8,7 +8,7 @@ class BheemException extends Exception{
         super(string);
     }
 }
-public class MyException {
+public class CustomException {
     public static void main(String[] args) {
         int i =20;
         int j=0;
