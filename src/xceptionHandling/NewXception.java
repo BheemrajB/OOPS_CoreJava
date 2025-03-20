@@ -1,9 +1,12 @@
 package xceptionHandling;
 class NewException extends Exception{
-    public NewException(String string)
+     String string;
+     public NewException(String string)
     {
-        super(string);
+        this.string=string;
     }
+//        super(string);
+//    }
 }
 public class NewXception {
     public static void main(String[] args) {
