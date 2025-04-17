@@ -54,7 +54,8 @@ class Library {
     private ArrayList<Book> books = new ArrayList<>();
 
     public void addBook(String title, String author) {
-        books.add(new Book(title, author));
+        books.add
+                (new Book(title, author));
         System.out.println(" Book added: " + title);
     }
 
